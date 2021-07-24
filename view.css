@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #333 url("https://images.unsplash.com/photo-1627054294189-4abd72021135?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80") no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 15rem;
+
+}
+
+header h1{
+    font-size: 3rem;
+}
+header p{
+    margin: 1rem 0;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background: #f4f4f4;
+    color: #333;
+    padding: 0.75rem 2rem;
+}
+section{
+    padding: 2rem;
+}
+
+@media (max-height: 450px) {
+    header{
+        padding-top: 5rem;
+    }
+
+}
